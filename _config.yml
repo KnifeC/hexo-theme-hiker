@@ -10,7 +10,7 @@ menu:
   Tags: tags
   About: about
   Friends: friends
-  Rss: atom
+  rss_feed: atom
 rss: /atom.xml
 
 since: 2018
