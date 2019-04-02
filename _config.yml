@@ -8,8 +8,8 @@ menu:
   Archives: archives
   Categories: categories
   Tags: tags
-  About: about
-  Friends: friends
+  About: aboutme
+  friends: friends
   rss_feed: atom
 rss: /atom.xml
 
@@ -44,7 +44,7 @@ home_logo_image:
 
 
 # AboutPage background
-about_big_image: [css/images/39.jpg, https://source.unsplash.com/collection/954550/1920x1080]
+about_big_image: [css/images/39.jpg]
 
 
 # Archive pagination
@@ -161,7 +161,7 @@ donate:
     
 # post copyright
 copyright:
-    enable: true
+    enable: false
 
 # post edit url, modify your post online for convenience
 # If you put your blog on GitHub, it should look like:

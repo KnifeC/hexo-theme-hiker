@@ -30,7 +30,7 @@ article_pv: '阅读量'
 read_more: '阅读全文'
 contents: 文章目录
 none: 无
-Friends: 友情链接
+friends: 友情链接
 donation:
     button_text: '打赏支持'
 insight:
@@ -46,3 +46,4 @@ copyright:
     license_title: "版权声明: "
     left_license_content: "本博客所有文章除特别声明外，均采用 "
     right_license_content: "许可协议。转载请注明出处"    
+    music_picture_content: "本文不含有任何音乐、图片所有权，亦无任何盈利，一切仅做推广用途。上述所有版权原作者所有。请支持正版。"

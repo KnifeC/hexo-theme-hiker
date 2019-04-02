@@ -15,6 +15,7 @@
     <div class="article-entry" itemprop="articleBody">
       <% if (theme.post_excerpt && index){ %>
         <p class="article-excerpt-content">
+            <!-- <%- strip_html(post.excerpt) %> -->
           <%- truncate(strip_html(post.content), {length: 250, omission: '...'}) %>
         </p>
         <p class="article-more-link">
@@ -30,7 +31,7 @@
       <% if (!index && theme.donate.enable){ %>
         <%- partial('donate') %>
       <% } %>
-      <% if (!index && theme.copyright.enable){ %>
+      <% if (!index && theme.copyright.enable ){ %>
       <%- partial('copyright') %>
       <% } %>
       <% if (!index && post.comments && (theme.gentie_productKey || theme.duoshuo_shortname || theme.disqus_shortname || theme.uyan_uid || theme.wumii || theme.livere_shortname)){ %>

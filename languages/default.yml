@@ -30,7 +30,7 @@ article_pv: 'PV:'
 read_more: Read More
 contents: Contents
 none: None
-Friends: Friends
+friends: Friends
 donation:
     button_text: 'Donate'
 insight:

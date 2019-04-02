@@ -29,6 +29,7 @@ site_pv: 'PV'
 article_pv: 'PV:'
 read_more: Read More
 contents: Contents
+friends: Friends
 none: None
 donation:
     button_text: 'Donate'
